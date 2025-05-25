@@ -15,13 +15,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void (^NetworkCompletionHandler)(NSDictionary * _Nullable response, NSError * _Nullable error);
 
-@interface NetworkManager : NSObject
-
-+ (instancetype)shared;
-
-+ (void)setShared:(NetworkManager *)manager;
+@protocol NetworkManagable <NSObject>
 
 - (void)sendRequest:(id<NetworkRequest>)request completion:(NetworkCompletionHandler)completion;
+
+@end
+
+@interface NetworkManager : NSObject <NetworkManagable>
+
++ (instancetype)shared;
 
 @property (nonatomic, assign) BOOL sandboxMode;
 
