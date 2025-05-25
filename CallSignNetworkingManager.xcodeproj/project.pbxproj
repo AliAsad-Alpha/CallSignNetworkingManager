@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8368442DE0B406002EB373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8368432DE0B406002EB373 /* AppDelegate.m */; };
+		FA8368472DE0B406002EB373 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8368462DE0B406002EB373 /* SceneDelegate.m */; };
+		FA83684A2DE0B406002EB373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8368492DE0B406002EB373 /* ViewController.m */; };
+		FA83684D2DE0B406002EB373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA83684B2DE0B406002EB373 /* Main.storyboard */; };
+		FA83684F2DE0B40A002EB373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA83684E2DE0B40A002EB373 /* Assets.xcassets */; };
+		FA8368522DE0B40A002EB373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8368502DE0B40A002EB373 /* LaunchScreen.storyboard */; };
+		FA8368552DE0B40A002EB373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8368542DE0B40A002EB373 /* main.m */; };
+		FA83685F2DE0B40A002EB373 /* CallSignNetworkingManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA83685E2DE0B40A002EB373 /* CallSignNetworkingManagerTests.m */; };
+		FA8368692DE0B40B002EB373 /* CallSignNetworkingManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8368682DE0B40B002EB373 /* CallSignNetworkingManagerUITests.m */; };
+		FA83686B2DE0B40B002EB373 /* CallSignNetworkingManagerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA83686A2DE0B40B002EB373 /* CallSignNetworkingManagerUITestsLaunchTests.m */; };
+		FA83687B2DE0B44F002EB373 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA83687A2DE0B44E002EB373 /* NetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA83685B2DE0B40A002EB373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8368372DE0B405002EB373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA83683E2DE0B405002EB373;
+			remoteInfo = CallSignNetworkingManager;
+		};
+		FA8368652DE0B40B002EB373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8368372DE0B405002EB373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA83683E2DE0B405002EB373;
+			remoteInfo = CallSignNetworkingManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA83683F2DE0B405002EB373 /* CallSignNetworkingManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallSignNetworkingManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8368422DE0B406002EB373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA8368432DE0B406002EB373 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA8368452DE0B406002EB373 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FA8368462DE0B406002EB373 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FA8368482DE0B406002EB373 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA8368492DE0B406002EB373 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA83684C2DE0B406002EB373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA83684E2DE0B40A002EB373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8368512DE0B40A002EB373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8368532DE0B40A002EB373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8368542DE0B40A002EB373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA83685A2DE0B40A002EB373 /* CallSignNetworkingManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallSignNetworkingManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA83685E2DE0B40A002EB373 /* CallSignNetworkingManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallSignNetworkingManagerTests.m; sourceTree = "<group>"; };
+		FA8368642DE0B40B002EB373 /* CallSignNetworkingManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallSignNetworkingManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8368682DE0B40B002EB373 /* CallSignNetworkingManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallSignNetworkingManagerUITests.m; sourceTree = "<group>"; };
+		FA83686A2DE0B40B002EB373 /* CallSignNetworkingManagerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallSignNetworkingManagerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FA8368782DE0B44E002EB373 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		FA8368792DE0B44E002EB373 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FA83687A2DE0B44E002EB373 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA83683C2DE0B405002EB373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8368572DE0B40A002EB373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8368612DE0B40B002EB373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8368362DE0B405002EB373 = {
+			isa = PBXGroup;
+			children = (
+				FA8368412DE0B405002EB373 /* CallSignNetworkingManager */,
+				FA83685D2DE0B40A002EB373 /* CallSignNetworkingManagerTests */,
+				FA8368672DE0B40B002EB373 /* CallSignNetworkingManagerUITests */,
+				FA8368402DE0B405002EB373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8368402DE0B405002EB373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA83683F2DE0B405002EB373 /* CallSignNetworkingManager.app */,
+				FA83685A2DE0B40A002EB373 /* CallSignNetworkingManagerTests.xctest */,
+				FA8368642DE0B40B002EB373 /* CallSignNetworkingManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8368412DE0B405002EB373 /* CallSignNetworkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA8368772DE0B44E002EB373 /* Source */,
+				FA8368422DE0B406002EB373 /* AppDelegate.h */,
+				FA8368432DE0B406002EB373 /* AppDelegate.m */,
+				FA8368452DE0B406002EB373 /* SceneDelegate.h */,
+				FA8368462DE0B406002EB373 /* SceneDelegate.m */,
+				FA8368482DE0B406002EB373 /* ViewController.h */,
+				FA8368492DE0B406002EB373 /* ViewController.m */,
+				FA83684B2DE0B406002EB373 /* Main.storyboard */,
+				FA83684E2DE0B40A002EB373 /* Assets.xcassets */,
+				FA8368502DE0B40A002EB373 /* LaunchScreen.storyboard */,
+				FA8368532DE0B40A002EB373 /* Info.plist */,
+				FA8368542DE0B40A002EB373 /* main.m */,
+			);
+			path = CallSignNetworkingManager;
+			sourceTree = "<group>";
+		};
+		FA83685D2DE0B40A002EB373 /* CallSignNetworkingManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA83685E2DE0B40A002EB373 /* CallSignNetworkingManagerTests.m */,
+			);
+			path = CallSignNetworkingManagerTests;
+			sourceTree = "<group>";
+		};
+		FA8368672DE0B40B002EB373 /* CallSignNetworkingManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8368682DE0B40B002EB373 /* CallSignNetworkingManagerUITests.m */,
+				FA83686A2DE0B40B002EB373 /* CallSignNetworkingManagerUITestsLaunchTests.m */,
+			);
+			path = CallSignNetworkingManagerUITests;
+			sourceTree = "<group>";
+		};
+		FA8368772DE0B44E002EB373 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA8368792DE0B44E002EB373 /* Constants.h */,
+				FA8368782DE0B44E002EB373 /* NetworkManager.h */,
+				FA83687A2DE0B44E002EB373 /* NetworkManager.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA83683E2DE0B405002EB373 /* CallSignNetworkingManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA83686E2DE0B40B002EB373 /* Build configuration list for PBXNativeTarget "CallSignNetworkingManager" */;
+			buildPhases = (
+				FA83683B2DE0B405002EB373 /* Sources */,
+				FA83683C2DE0B405002EB373 /* Frameworks */,
+				FA83683D2DE0B405002EB373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallSignNetworkingManager;
+			productName = CallSignNetworkingManager;
+			productReference = FA83683F2DE0B405002EB373 /* CallSignNetworkingManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8368592DE0B40A002EB373 /* CallSignNetworkingManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8368712DE0B40B002EB373 /* Build configuration list for PBXNativeTarget "CallSignNetworkingManagerTests" */;
+			buildPhases = (
+				FA8368562DE0B40A002EB373 /* Sources */,
+				FA8368572DE0B40A002EB373 /* Frameworks */,
+				FA8368582DE0B40A002EB373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA83685C2DE0B40A002EB373 /* PBXTargetDependency */,
+			);
+			name = CallSignNetworkingManagerTests;
+			productName = CallSignNetworkingManagerTests;
+			productReference = FA83685A2DE0B40A002EB373 /* CallSignNetworkingManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA8368632DE0B40B002EB373 /* CallSignNetworkingManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8368742DE0B40B002EB373 /* Build configuration list for PBXNativeTarget "CallSignNetworkingManagerUITests" */;
+			buildPhases = (
+				FA8368602DE0B40B002EB373 /* Sources */,
+				FA8368612DE0B40B002EB373 /* Frameworks */,
+				FA8368622DE0B40B002EB373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8368662DE0B40B002EB373 /* PBXTargetDependency */,
+			);
+			name = CallSignNetworkingManagerUITests;
+			productName = CallSignNetworkingManagerUITests;
+			productReference = FA8368642DE0B40B002EB373 /* CallSignNetworkingManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8368372DE0B405002EB373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FA83683E2DE0B405002EB373 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FA8368592DE0B40A002EB373 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FA83683E2DE0B405002EB373;
+					};
+					FA8368632DE0B40B002EB373 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FA83683E2DE0B405002EB373;
+					};
+				};
+			};
+			buildConfigurationList = FA83683A2DE0B405002EB373 /* Build configuration list for PBXProject "CallSignNetworkingManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8368362DE0B405002EB373;
+			productRefGroup = FA8368402DE0B405002EB373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA83683E2DE0B405002EB373 /* CallSignNetworkingManager */,
+				FA8368592DE0B40A002EB373 /* CallSignNetworkingManagerTests */,
+				FA8368632DE0B40B002EB373 /* CallSignNetworkingManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA83683D2DE0B405002EB373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8368522DE0B40A002EB373 /* LaunchScreen.storyboard in Resources */,
+				FA83684F2DE0B40A002EB373 /* Assets.xcassets in Resources */,
+				FA83684D2DE0B406002EB373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8368582DE0B40A002EB373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8368622DE0B40B002EB373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA83683B2DE0B405002EB373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA83684A2DE0B406002EB373 /* ViewController.m in Sources */,
+				FA8368442DE0B406002EB373 /* AppDelegate.m in Sources */,
+				FA8368552DE0B40A002EB373 /* main.m in Sources */,
+				FA83687B2DE0B44F002EB373 /* NetworkManager.m in Sources */,
+				FA8368472DE0B406002EB373 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8368562DE0B40A002EB373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA83685F2DE0B40A002EB373 /* CallSignNetworkingManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8368602DE0B40B002EB373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8368692DE0B40B002EB373 /* CallSignNetworkingManagerUITests.m in Sources */,
+				FA83686B2DE0B40B002EB373 /* CallSignNetworkingManagerUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA83685C2DE0B40A002EB373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA83683E2DE0B405002EB373 /* CallSignNetworkingManager */;
+			targetProxy = FA83685B2DE0B40A002EB373 /* PBXContainerItemProxy */;
+		};
+		FA8368662DE0B40B002EB373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA83683E2DE0B405002EB373 /* CallSignNetworkingManager */;
+			targetProxy = FA8368652DE0B40B002EB373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA83684B2DE0B406002EB373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA83684C2DE0B406002EB373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8368502DE0B40A002EB373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8368512DE0B40A002EB373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA83686C2DE0B40B002EB373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA83686D2DE0B40B002EB373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA83686F2DE0B40B002EB373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallSignNetworkingManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.callSignNetworkingManager.CallSignNetworkingManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8368702DE0B40B002EB373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallSignNetworkingManager/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.callSignNetworkingManager.CallSignNetworkingManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA8368722DE0B40B002EB373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.callSignNetworkingManager.CallSignNetworkingManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallSignNetworkingManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallSignNetworkingManager";
+			};
+			name = Debug;
+		};
+		FA8368732DE0B40B002EB373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.callSignNetworkingManager.CallSignNetworkingManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallSignNetworkingManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallSignNetworkingManager";
+			};
+			name = Release;
+		};
+		FA8368752DE0B40B002EB373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.callSignNetworkingManager.CallSignNetworkingManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CallSignNetworkingManager;
+			};
+			name = Debug;
+		};
+		FA8368762DE0B40B002EB373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH4A3H8G7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gof.callSignNetworkingManager.CallSignNetworkingManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CallSignNetworkingManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA83683A2DE0B405002EB373 /* Build configuration list for PBXProject "CallSignNetworkingManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83686C2DE0B40B002EB373 /* Debug */,
+				FA83686D2DE0B40B002EB373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA83686E2DE0B40B002EB373 /* Build configuration list for PBXNativeTarget "CallSignNetworkingManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA83686F2DE0B40B002EB373 /* Debug */,
+				FA8368702DE0B40B002EB373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8368712DE0B40B002EB373 /* Build configuration list for PBXNativeTarget "CallSignNetworkingManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8368722DE0B40B002EB373 /* Debug */,
+				FA8368732DE0B40B002EB373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8368742DE0B40B002EB373 /* Build configuration list for PBXNativeTarget "CallSignNetworkingManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8368752DE0B40B002EB373 /* Debug */,
+				FA8368762DE0B40B002EB373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8368372DE0B405002EB373 /* Project object */;
+}
